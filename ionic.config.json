@@ -1,7 +1,0 @@
-{
-    "name": "collection",
-    "integrations": {
-      "capacitor": {}
-    },
-    "type": "react"
-  }

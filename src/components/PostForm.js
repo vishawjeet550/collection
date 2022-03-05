@@ -42,7 +42,8 @@ function PostForm() {
   });
 
   function createPostCallback() {
-    if (values.image && values.heading) {
+    if (values.heading && file) {
+      setErrMsg('')
       mutate({ variables: { file } })
         .then(res => {
           imgChangeHandler(res.data.singleUpload.Location)

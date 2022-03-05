@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">collection</string>
-    <string name="title_activity_main">collection</string>
-    <string name="package_name">io.ionic.collection</string>
-    <string name="custom_url_scheme">io.ionic.collection</string>
-</resources>
