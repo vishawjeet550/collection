@@ -1,0 +1,71 @@
+.form-container {
+    height: 100vh;
+    width: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    .main_forrm {
+        width: 25%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 0.5rem 1rem;
+        justify-items: center;
+        align-items: center;
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+        .message {
+            width: 100%;
+            border-radius: 13px;
+        }
+        .main_heading {
+            font-size: 23px;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            line-height: 128%;
+            cursor: pointer;
+        }
+        .input_container {
+            width: 100%;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            padding: 30px;
+            border-radius: 13px;
+            .input_label {
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+            .main_form_input {
+                padding: 12px 20px;
+                font-size: 1rem;
+                border: 1px solid #ddd;
+                border-radius: 13px;
+                width: 100%;    
+                margin-bottom: 20px;
+            }
+            .button {
+                cursor: pointer;
+                padding: 10px;
+                width: 100%;
+                margin-top: 15px;
+                border: none;
+                box-shadow: none;
+                background: linear-gradient(119.02deg, #3E4365 0%, #292D48 100.89%);
+                border-radius: 13px;
+                color: white;
+                margin-right: 30px;
+                font-size: 18px;
+            }
+        }
+        .register_component {
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            padding: 20px;
+            border-radius: 13px;
+            span {
+                font-weight: 700;
+                color: #1f6feb;
+                cursor: pointer;
+            }
+        }
+    }
+}
